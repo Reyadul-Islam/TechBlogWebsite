@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body
+{
+    padding:0%;
+    margin:0%;
+    font-family:'Lato';
+    
+}
+.navbar-brand
+{
+    font-family: 'Pacifico';
+    font-size:35px;
+    color:lightcoral !important;
+}
+.nav-link
+{
+    font-size:16px;
+    margin:15px;
+    color:black !important;
+    font-family: 'Roboto Condensed';
+}
+.nav-link:hover
+{
+  color:#00E8E8 !important;
+
+
+}
+.active .nav-link
+{
+    color:#00E8E8 !important;
+}
+
+.menu-right-btn
+{
+padding:13px 16px;
+margin-right:4%;
+background-color: transparent;
+transition:all 300ms ease-in;
+
+}
+.menu-right-btn:hover
+{
+    color:white;
+    background-color: #00E8E8;
+}
+.site-content
+{
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title,.site-desc
+{
+    color:white;
+    font-family: 'Righteous';
+}
+.site-title
+{
+    margin-top:30%;
+    margin-bottom:6%;
+    font-size:50px;
+}
+.site-desc
+{
+    font-size:14px;
+    padding-left:15%;
+}
+.site-btn1
+{
+    margin-left:40px;
+    background-color: black;
+    color:white;
+    
+}
+.site-btn2
+{
+    background-color: white;
+}
+.site-btn1,.site-btn2
+{
+margin-top: 5%;
+margin-bottom:40%;
+
+}
+.card-text
+{
+    text-align: justify;
+}
+
+.section-1 .heading-1
+{
+margin-top: 8%;
+} 
+.section-1 .heading-2
+{
+margin-bottom: 5%;
+font-size: 39px;
+} 
+ .section-1 .para-1
+{
+   margin-top:10%;
+   margin-bottom:5%;
+   
+    
+}
+.section-1 .card-text .para-1
+{
+color:rgba(0,0,0,0.59);
+font-size:12px;
+  
+}
+.section-1
+{
+    margin-bottom: 8%;
+}
+/* Section 2  */
+
+.section-2 .container-fluid
+{
+   
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-2 .heading-1
+{
+    margin-top:20%;
+    margin-bottom:4%;
+    font-family: 'Righteous';
+    width:80%;
+    color:whitesmoke;
+}
+.section-2 .para
+{
+width:80%;
+font-family:'Ubuntu';
+color:whitesmoke;
+margin-bottom: 7%;
+
+}
+.section-2 .btn
+{
+margin-bottom:15%;
+width:30%;
+padding:2% 5%;
+
+}
+.m-2
+{
+    text-align: justify;
+}
+.section-3
+{
+    margin-top:6%;
+}
+.section-3 i
+{
+    color:#00E8E8;
+
+}
+.section-3 p
+{
+    color:rgba(0,0,0,0.59);
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    
+}
+/****Section4---*/
+
+.section-4 .row .col-md-7, .col-md-5
+{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.section-4 a
+{
+    color:lightseagreen;
+    font-size: 40px;
+
+    text-decoration: none;
+
+}
+.section-4 .para-1
+{
+    color:white;
+    font-family:'Ruboto Condensed';
+    margin-top:7%;
+    font-size:23px;
+}
+
+/***Footer***/
+.social i
+{
+    color:#EF5651;
+    font-size:25px;
+}
+.card
+{
+    width:22rem;
+    transition:0.5s ease;
+    cursor:pointer;
+    border-radius:35%;
+   
+}
+.card:hover
+{
+    transform:scale(1.2);
+    box-shadow:5px 5px 15px rgba(0,0,0,0.6);
+}
+ .card1
+ {
+     position:relative;
+     background:#fff;
+     width:400px;
+     height:400px;
+     margin:0 auto;
+     transition:0.5s ease;
+    cursor:pointer;
+    border-radius:5%;
+
+ }
+ .card1:hover
+ {
+    transform:scale(1.0);
+    box-shadow:5px 5px 15px rgba(0,0,0,0.6);
+ }
+ .card1 .content
+ {
+     width:400px;
+     padding:30px;
+     box-sizing: border-box;
+
+ }
+ .card1 .content a
+
+ {
+     display:inline-block;
+     margin:10px 0 0;
+     padding:10px 20px;
+     text-decoration: none;
+     border:2px solid #000;
+     color:#262626;
+     font-weight:600;
+
+ }
+
+
+
+ .card1 .sliderText
+ {
+     position:relative;
+     width:100%;
+     height:200px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     background:#000;
+ }
+ 
+ .card1 .sliderText h3
+ {
+     color:#fff;
+     font-size:3em;
+ }
+ .swiper-slide
+ {
+     width:400px;
+ }
+ .swiper-slide:nth-child(1) .sliderText
+ {
+     background: #2196f3;
+ }
+ .swiper-slide:nth-child(2) .sliderText
+ {
+     background: #e91e63;
+ }
+ .swiper-slide:nth-child(3) .sliderText
+ {
+     background: #c3d41a;
+ }
+ .swiper-slide:nth-child(4) .sliderText
+ {
+     background: #ff9800;
+ }
+ .swiper-slide:nth-child(5) .sliderText
+ {
+     background: #c33ada;
+ }
+ /**iframe responsive**/
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
